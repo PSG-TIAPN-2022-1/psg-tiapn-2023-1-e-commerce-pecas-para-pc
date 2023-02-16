@@ -1,17 +1,22 @@
-# Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+# E-commerce Peças para PCs
+O objetivo geral do nosso trabalho é desenvolver uma loja virtual de peças para computadores que consiga atender todas as pessoas
+Como objetivos específicos, podemos ressaltar:
+
+●	Explicar a função de cada peça;
+●	Auxiliar na compra do computador;
+●	Assegura mento do estado do produto;
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Henrique Carrara
+* Hitalo Gabriel Almeida dos Santos
+* Rafael Lucas Rosa de Oliveira
+* Thiago Akihiro Ishi Machado
+* Wander Buzzati Sfredo Santos
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
