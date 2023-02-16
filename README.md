@@ -2,9 +2,9 @@
 O objetivo geral do nosso trabalho é desenvolver uma loja virtual de peças para computadores que consiga atender todas as pessoas
 Como objetivos específicos, podemos ressaltar:
 
-●	Explicar a função de cada peça;
-●	Auxiliar na compra do computador;
-●	Assegura mento do estado do produto;
+*●	Explicar a função de cada peça;
+*●	Auxiliar na compra do computador;
+*●	Assegura mento do estado do produto;
 
 ## Alunos integrantes da equipe
 
