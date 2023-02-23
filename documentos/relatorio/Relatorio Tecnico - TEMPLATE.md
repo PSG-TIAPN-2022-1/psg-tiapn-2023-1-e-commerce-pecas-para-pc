@@ -54,73 +54,37 @@
 
 # Introdução
 
+Hoje em dia o uso do computador é de suma importância na sociedade, sendo aplicado em todas as áreas: medicina, educação, agricultura, engenharia, dentre outras, usado em cadastros médicos, construção de edifícios e equipamentos de alta sofisticação indispensáveis na ciência moderna.
+O computador é necessário porque a rapidez, organização e confiabilidade que ele permite é de grande importância nos dias de hoje com essa era tecnológica, possibilitando uma economia de tempo e ganho na qualidade, o que facilita a vida de qualquer pessoa.
+
+
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O problema das lojas virtuais de computador é que muitos fornecedores não explicam a funcionalidade da peça e a compatibilidade dela com as demais peças, no qual diversos clientes têm a recorrer por meios externos para saber a qualidade do produto, onde queremos melhorar esta parte deixando pratico e explicativo.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ O objetivo geral do nosso trabalho é desenvolver uma loja virtual de peças para computadores que consiga atender todas as pessoas.
+Como objetivos específicos, podemos ressaltar:
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+●	Explicar a função de cada peça;
+
+●	Auxiliar na compra do computador;
+
+●	Asseguramento do estado do produto;
+
+
+
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A Justificativa da realização do nosso projeto é que a equipe possuía certa noção de montagem de computador e observamos que muitos indivíduos se frustram na compra do computador gastando altos preços no qual não atendeu às condições exigidas por falta de explicação do desempenho do computador, no qual queremos auxiliar o cliente até o final da compra. Além disso, o consumo de computadores aumentou segundo a pesquisa realizada pela Fundação Getúlio Vargas o Brasil vai ultrapassar 216 milhões de computadores (desktop, notebook e tablet) em uso no Brasil no início de 2023, atingindo 1 computador por habitantes (100% per capita). As vendas em 2021 tiveram um crescimento espantoso de 27% com 14 milhões de unidades.
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O foco deste trabalho está no público jovem e adulto, pois é um público que utiliza frequentemente e precisa de peças de computadores que atendam a necessidade de lazeres e serviços.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
