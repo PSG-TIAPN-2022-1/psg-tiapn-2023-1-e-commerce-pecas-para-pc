@@ -1,21 +1,24 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+E-commerce Peças para PCs
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Sistemas de Informação
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+-Henrique Carrara Campos Braga
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+-Thiago Akihiro Ishi Marchado
+
+-Wander Buzatti Sfredo Santos
+
+-Hitalo Gabriel Almeida dos Santos
+
+-Rafael Lucas Rosa de Oliveira
+
 
 # Estrutura do Documento
 
