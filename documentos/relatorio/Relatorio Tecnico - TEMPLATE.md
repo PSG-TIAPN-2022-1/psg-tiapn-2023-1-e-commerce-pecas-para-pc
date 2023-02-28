@@ -96,7 +96,7 @@ O foco deste trabalho está no público jovem e adulto, pois é um público que 
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
@@ -128,19 +128,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema(Vonder Junior)  | Um site que mostre as opções mais baratas          | Por não ter muito dinheiro              |
+|Usuário do sistema(Luisa Kowalski)  | Que o site ofereça uma opção de computadores com mais facilidade e rapidez         | Ter um pc bom para jogar, se divertir e interagir com os amigos              |
+|Usuário do sistema(Luisa Kowalski)  | Um site que ajude a montar um PC, peça a  peça          | Não tem conhecimento em hardware e a compatibilidade entre as peças              |
+|Usuário do sistema(Pedro Keen)  | Um site que disponha das melhores e mais atuais peças           | Para dar ao público uma melhor experiência               |
+|Usuário do sistema(Pedro Keen)  | Um site que possa economizar o tempo de busca           | Não tem tempo para pesquisar muito            |           
+|Administrador       | Alterar permissões                 | Permitir que o usuário tenha seus dados particulres  |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
@@ -150,37 +144,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RNF-001| O site deve apresentar uma aba de montagem de PC | ALTA |
+|RNF-002| O site deve apresentar os produtos por categoria |  ALTA | 
+|RNF-003| O site deve apresentar diversas cores, para ajudar a utilizar o site | BAIXA | 
+|RNF-004| O site deve ajudar o usuário na compra das peças, colocando determinadas cores em cada produto, assim dividindo o público alvo. |  ALTA | 
+|RNF-005| O site deve pedir o login de cada usuário, com seus dados e suas idade | ALTA | 
+|RNF-006| O site deve permitir visualizar a descrição de suas máquinas. |  ALTA | 
+|RNF-007| O site deve possuir um vocabulário simples, mas também técnico. | MÉDIA | 
+|RNF-008| O site deve permitir verificar os conteúdos salvos como preferidos |  BAIXA | 
+|RNF-009| O site deve permitir notas e satisfação sobre seus produtos | MÉDIA | 
+|RNF-0010| O site deve exibir os comentários do produto, feitos pelo fornecedor. |  BAIXA | 
+|RNF-0011| O site deve permitir salvar conteúdos preferidos. | BAIXA | 
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages); | ALTA |
+|RNF-002| O site deverá ser responsivo permitindo a visualização em diversos aparelhos eletrônicos com mesma qualidade |  MÉDIA | 
+|RNF-003| O site deve ter bom desempenho, impossibilitando a chance de qualquer bug e travamento | MÉDIA | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA | 
 
 
 ## Restrições
@@ -189,27 +174,22 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 21/06/2023        | 
+|02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend        |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho        |
 
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 # Projeto de Interface
 
-Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops.
+......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+
+> Apresente as principais interfaces da solução. Discuta como 
+> foram elaboradas de forma a atender os requisitos funcionais, não
+> funcionais e histórias de usuário abordados nas [Especificações do
+> Projeto](#especificações-do-projeto).
 
 ## User Flow
-
- No fluxo do usuário, a interação entre páginas é destacada. Assim fica evidente o caminho do usuário durante sua navegação no nosso site, no qual as páginas vão se conectar por botões interativos que facilitam não só a transição mas o fluxo do usuário dentro do site.
-
-
 
 ......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
 
@@ -229,9 +209,6 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 
 ## Wireframes
-
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam um esquema de cores vibrante e amigável, além de fontes grandes e legíveis, visando a mensagem que queremos passar ao público alvo. Além disso, mostramos que todas as 7 páginas se conectam para além do menu, trazendo uma navegação interativa e responsiva ao usuário.
-
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
