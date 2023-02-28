@@ -203,14 +203,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops.
 
 ## User Flow
+
+ No fluxo do usuário, a interação entre páginas é destacada. Assim fica evidente o caminho do usuário durante sua navegação no nosso site, no qual as páginas vão se conectar por botões interativos que facilitam não só a transição mas o fluxo do usuário dentro do site.
+
+
 
 ......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
 
@@ -230,6 +229,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Wireframes
+
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam um esquema de cores vibrante e amigável, além de fontes grandes e legíveis, visando a mensagem que queremos passar ao público alvo. Além disso, mostramos que todas as 7 páginas se conectam para além do menu, trazendo uma navegação interativa e responsiva ao usuário.
+
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
