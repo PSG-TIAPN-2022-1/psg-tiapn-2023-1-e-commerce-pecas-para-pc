@@ -246,12 +246,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >
 >A equipe está organizada da seguinte maneira:
 >Scrum Master: Leonardo Vilela Cardoso
-> **Equipe de Desenvolvimento:**
->Henrique Carrara
->Thiago Akihiro
->Wander Buzatti
->Hitalo Almeida
->Rafael Rosa
+>**Equipe de Desenvolvimento:**
+> Henrique Carrara
+> Thiago Akihiro
+> Wander Buzatti
+> Hitalo Almeida
+> Rafael Rosa
 
 ## Gestão do Projeto
 
