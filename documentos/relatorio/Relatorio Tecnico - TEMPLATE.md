@@ -96,30 +96,45 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas e Mapas de Empatia
 
+# 1º
+# Pedro (Babaluzin) Keen
+
+![image](https://user-images.githubusercontent.com/103612206/222246545-beebf2f4-24e6-4617-9803-67fd5cc489c7.png)
 
 
 
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
+![image](https://user-images.githubusercontent.com/103612206/222245527-ac8c688e-5f67-4849-88d8-e1fcb28bc748.png)
+
+
+# 2º
+
+# Luisa Kowalski
+
+
+![image](https://user-images.githubusercontent.com/103612206/222246300-fe2fe807-ad49-4bc3-90bd-0282ac8d60d5.png)
+
+
+![image](https://user-images.githubusercontent.com/103612206/222246813-49dcaee5-fa3f-4be1-83ef-f2b35c6fe9cb.png)
+
+
+# 3º
+
+# Vonder Júnior
+
+
+
+![image](https://user-images.githubusercontent.com/103612206/222247079-560f9a68-e618-4ef8-8408-83c6def29065.png)
+
+
+![image](https://user-images.githubusercontent.com/103612206/222247274-87d90f1f-60b6-4bd8-b349-1b2c89bf31fc.png)
+
+
+
+
+
+
+
+
 
 
 ## Histórias de Usuários
