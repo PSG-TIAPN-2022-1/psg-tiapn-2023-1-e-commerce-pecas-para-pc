@@ -230,8 +230,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 > Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 >
 | Ambiente  | Plataforma              |Link de Acesso |
@@ -259,7 +257,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 >Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
-> **Recursos:** esta lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes >templates para agilizar a criação de novos cartões.
+> **Recursos:** esta lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
 >**Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 >**To Do:** Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
 Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
