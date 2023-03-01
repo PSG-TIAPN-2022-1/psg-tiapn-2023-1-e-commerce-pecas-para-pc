@@ -251,9 +251,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >**Equipe de Desenvolvimento:**
 >
 > -Henrique Carrara
+> 
 > -Thiago Akihiro
+> 
 > -Wander Buzatti
+> 
 > -Hitalo Almeida
+> 
 > -Rafael Rosa
 
 ## Gestão do Projeto
