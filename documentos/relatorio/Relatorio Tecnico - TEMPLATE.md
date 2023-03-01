@@ -245,12 +245,19 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 >
 >A equipe está organizada da seguinte maneira:
+>
 >Scrum Master: Leonardo Vilela Cardoso
+>
 >**Equipe de Desenvolvimento:**
+>
 > Henrique Carrara
+> 
 > Thiago Akihiro
+> 
 > Wander Buzatti
+> 
 > Hitalo Almeida
+> 
 > Rafael Rosa
 
 ## Gestão do Projeto
