@@ -168,8 +168,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-007| O site deve possuir um vocabulário simples, mas também técnico. | MÉDIA | 
 |RNF-008| O site deve permitir verificar os conteúdos salvos como preferidos |  BAIXA | 
 |RNF-009| O site deve permitir notas e satisfação sobre seus produtos | MÉDIA | 
-|RNF-0010| O site deve exibir os comentários do produto, feitos pelo fornecedor. |  BAIXA | 
-|RNF-0011| O site deve permitir salvar conteúdos preferidos. | BAIXA | 
+|RNF-010| O site deve exibir os comentários do produto, feitos pelo fornecedor. |  BAIXA | 
+|RNF-011| O site deve permitir salvar conteúdos preferidos. | BAIXA | 
 
 
 
