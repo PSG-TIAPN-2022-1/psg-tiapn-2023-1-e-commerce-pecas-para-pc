@@ -225,22 +225,46 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+![image](https://user-images.githubusercontent.com/101299065/222259913-e80945ef-b9ba-4913-969e-99f485482692.png)
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+ Na página index, a tela principal é apresentada ao usuário. A partir dessa aba, o cliente pode ter acesso a produtos mais novos/populares, além de filtrar enquanto a característica desejada. Além disso aqui estão disponíveis todos os recursos do site e, caso a função não se encontre na página, ele será redirecionado para as demais.
+
+
+![image](https://user-images.githubusercontent.com/101299065/222262780-92395352-b638-4f0c-ac5f-b8baa4f6c0c3.png)
+
+Na aba cadastro, o usuário pode criar sua conta e se conectar ao nosso site, assim, será possível receber recomendações personalizadas, adicionar produtos como favoritos ou efetuar a compra dos mesmos.
+
+
+ ![image](https://user-images.githubusercontent.com/101299065/222261978-3287a123-0edb-4d1b-ab2d-33de51453167.png)
+
+ Na aba de login, o usuário já cadastrado pode conectar sua conta ao site, o que é necessário para efetuar a compra de algum produto, ou acessar aqueles marcados como favoritos.
+
+
+ ![image](https://user-images.githubusercontent.com/101299065/222263246-191efbbb-0366-4f82-93f5-9b20f6d0dc83.png)
+
+ Na aba de favoritos, o usuário tem acesso aos produtos que marcou como desejados, com redirecionamento ao carrinho, onde poderá por fim, efetuar a compra.
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/101299065/222263597-59f61718-9190-4790-9a08-c3c14c8d88a0.png)
+
+ Na aba carrinho, o usuário tem acesso aos produtos que foram movidos para o carrinho, onde poderá selecionar, calcular o frete e efetuar de forma simplificada, a compra das peças/periféricos marcadas(os).
+ 
+
+ ![image](https://user-images.githubusercontent.com/101299065/222264339-3bf3fe08-0658-4624-8349-a8e7c21cd916.png)
+
+ Na aba monte seu pc, o usuário pode montar o computador desejado com peças selecionadas. Aqui ele pode encontrar dicas de compatibilidade das partes, auxiliando a montagem.
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/101299065/222264987-ea085ca4-ba32-4d10-815a-d4589b213e7b.png)
+
+ Na aba suporte, o usuário encontra a área de antendimento ao cliente, onde é possível consultar as dúvidas mais frequentes, além de entrar em contato conosco, a fim de requisitar esclarecimentos ou expressar reclamações.
+ 
+ 
+![image](https://user-images.githubusercontent.com/101299065/222266148-c89a8be7-a284-4ccc-b909-01eb5bf33533.png)
+
+ Na parte de pesquisa, o usuário entra em uma aba preparada para filtrar e selecionar os melhores resultados da pesquisa do usuário, selecionando os melhores produtos de acordo com suas preferências.
+
+
 
 
 # Metodologia
