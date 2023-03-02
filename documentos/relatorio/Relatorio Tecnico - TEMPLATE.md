@@ -58,7 +58,7 @@ Sistemas de Informação
 # Introdução
 
 Hoje em dia o uso do computador é de suma importância na sociedade, sendo aplicado em todas as áreas: medicina, educação, agricultura, engenharia, dentre outras, usado em cadastros médicos, construção de edifícios e equipamentos de alta sofisticação indispensáveis na ciência moderna.
-O computador é necessário porque a rapidez, organização e confiabilidade que ele permite é de grande importância nos dias de hoje com essa era tecnológica, possibilitando uma economia de tempo e ganho na qualidade, o que facilita a vida de qualquer pessoa.
+O computador é necessário porque a rapidez, organização e confiabilidade dele é de grande importância nos dias de hoje com essa era tecnológica, possibilitando uma economia de tempo e ganho de qualidade, o que facilita a vida de qualquer pessoa.
 
 
 ## Problema
