@@ -181,7 +181,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| O site deverá ser responsivo permitindo a visualização em diversos aparelhos eletrônicos com mesma qualidade |  MÉDIA | 
 |RNF-003| O site deve ter bom desempenho, impossibilitando a chance de qualquer bug e travamento | MÉDIA | 
 |RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
-|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
+
 
 
 ## Restrições
@@ -191,9 +191,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 21/06/2023        | 
-|02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend        |
+|02| O usuário deve ser maior de idade      |
 |03| A equipe não pode subcontratar o desenvolvimento do trabalho        |
-
+|04| O site nao pode divulgar dados pessoais, seguindo as norma d LGPD  |
 
 
 # Projeto de Interface
