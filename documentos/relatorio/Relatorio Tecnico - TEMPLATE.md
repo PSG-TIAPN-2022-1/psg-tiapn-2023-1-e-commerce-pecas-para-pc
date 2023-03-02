@@ -159,17 +159,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RNF-001| O site deve apresentar uma aba de montagem de PC | ALTA |
-|RNF-002| O site deve apresentar os produtos por categoria |  ALTA | 
-|RNF-003| O site deve apresentar diversas cores, para ajudar a utilizar o site | BAIXA | 
-|RNF-004| O site deve ajudar o usuário na compra das peças, colocando determinadas cores em cada produto, assim dividindo o público alvo. |  ALTA | 
-|RNF-005| O site deve pedir o login de cada usuário, com seus dados e suas idade | ALTA | 
-|RNF-006| O site deve permitir visualizar a descrição de suas máquinas. |  ALTA | 
-|RNF-007| O site deve possuir um vocabulário simples, mas também técnico. | MÉDIA | 
-|RNF-008| O site deve permitir verificar os conteúdos salvos como preferidos |  BAIXA | 
-|RNF-009| O site deve permitir notas e satisfação sobre seus produtos | MÉDIA | 
-|RNF-010| O site deve exibir os comentários do produto, feitos pelo fornecedor. |  BAIXA | 
-|RNF-011| O site deve permitir salvar conteúdos preferidos. | BAIXA | 
+|RF-001| O site deve apresentar uma aba de montagem de PC | ALTA |
+|RF-002| O site deve apresentar os produtos por categoria |  ALTA | 
+|RF-003| O site deve apresentar diversas cores, para ajudar a utilizar o site | BAIXA | 
+|RF-004| O site deve ajudar o usuário na compra das peças, colocando determinadas cores em cada produto, assim dividindo o público alvo. |  ALTA | 
+|RF-005| O site deve pedir o login de cada usuário, com seus dados e suas idade | ALTA | 
+|RF-006| O site deve permitir visualizar a descrição de suas máquinas. |  ALTA | 
+|RF-007| O site deve possuir um vocabulário simples, mas também técnico. | MÉDIA | 
+|RF-008| O site deve permitir verificar os conteúdos salvos como preferidos |  BAIXA | 
+|RF-009| O site deve permitir notas e satisfação sobre seus produtos | MÉDIA | 
+|RF-010| O site deve exibir os comentários do produto, feitos pelo fornecedor. |  BAIXA | 
+|RF-011| O site deve permitir salvar conteúdos preferidos. | BAIXA | 
 
 
 
@@ -180,7 +180,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages); | ALTA |
 |RNF-002| O site deverá ser responsivo permitindo a visualização em diversos aparelhos eletrônicos com mesma qualidade |  MÉDIA | 
 |RNF-003| O site deve ter bom desempenho, impossibilitando a chance de qualquer bug e travamento | MÉDIA | 
-|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
+|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA |
 
 
 ## Restrições
