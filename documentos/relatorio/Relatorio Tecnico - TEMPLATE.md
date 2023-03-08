@@ -57,18 +57,18 @@ Sistemas de Informação
 
 # Introdução
 
-Hoje em dia o uso do computador é de suma importância na sociedade, sendo aplicado em todas as áreas: medicina, educação, agricultura, engenharia, dentre outras, usado em cadastros médicos, construção de edifícios e equipamentos de alta sofisticação indispensáveis na ciência moderna.
-O computador é necessário porque a rapidez, organização e confiabilidade dele é de grande importância nos dias de hoje com essa era tecnológica, possibilitando uma economia de tempo e ganho de qualidade, o que facilita a vida de qualquer pessoa.
+  O Comércio eletrônico de peças para computadores é um espaço em constante desenvolvimento, pois sucessivamente são criadas novas peças no qual o fornecedor tende ter que estudá-las para poder repassar o produto ao cliente de forma clara e explícita a utilidade de tal peça e suas compatibilidades, sendo um dos maiores desafios. Além disso, essas lojas virtuais a todo momento tem que atualizar a plataforma por conta novas peças, mas principalmente pelas táticas de marketing e venda da mercadoria.
 
 
 ## Problema
 
-O problema das lojas virtuais de computador é que muitos fornecedores não explicam a funcionalidade da peça e a compatibilidade dela com as demais peças, no qual diversos clientes têm a recorrer por meios externos para saber a qualidade do produto, onde queremos melhorar esta parte deixando pratico e explicativo.
+  O problema das lojas virtuais de peças para computadores é que muitos fornecedores não atualizam certos aspectos da plataforma como a principalmente a funcionalidade de tal peça e a sua compatibilidade dela com as demais peças, no qual diversos clientes são obrigados  a recorrer por meios externos para saber a qualidade do produto onde estes e-commerce estão focando em massa na parte de marketing que esquece de auxiliar o cliente. Assim queremos melhorar principalmente o atendimento ao cliente  tornando esta parte prática e explicativa.
+
 
 ## Objetivos
 
- O objetivo geral do nosso trabalho é desenvolver uma loja virtual de peças para computadores que consiga atender todas as pessoas.
-Como objetivos específicos, podemos ressaltar:
+  O objetivo geral do nosso trabalho é desenvolver uma loja virtual de peças para computadores que consiga atender todos os grupos de pessoas com esclarecimento e interatividade.
+  Como objetivos específicos, podemos ressaltar:
 
 ●	Explicar a função de cada peça;
 
@@ -76,17 +76,20 @@ Como objetivos específicos, podemos ressaltar:
 
 ●	Asseguramento do estado do produto;
 
+●	Previsão de novas peças;
+
+●	Descontos para clientes frequentes;
 
 
 
 ## Justificativa
 
-A Justificativa da realização do nosso projeto é que a equipe possuía certa noção de montagem de computador e observamos que muitos indivíduos se frustram na compra do computador gastando altos preços no qual não atendeu às condições exigidas por falta de explicação do desempenho do computador, no qual queremos auxiliar o cliente até o final da compra. Além disso, o consumo de computadores aumentou segundo a pesquisa realizada pela Fundação Getúlio Vargas o Brasil vai ultrapassar 216 milhões de computadores (desktop, notebook e tablet) em uso no Brasil no início de 2023, atingindo 1 computador por habitantes (100% per capita). As vendas em 2021 tiveram um crescimento espantoso de 27% com 14 milhões de unidades.
+  Segundo Fundação Getúlio Vargas o Brasil vai ultrapassar 216 milhões de computadores (desktop, notebook e tablet) em uso no Brasil no início de 2023, atingindo 1 computador por habitantes (100% per capita). As vendas em 2021 tiveram um crescimento espantoso de 27% com 14 milhões de unidades. Entretanto, muitos desses computadores são lentos e cheios de problemas e demoram até 40% mais tempo para realizar tarefas, na comparação com equipamentos que utilizam softwares e serviços adequados. Essa foi a conclusão a que chegou o estudo Brain On Tech, realizado pela Dell Technologies em parceria com a EMOTIV.​ Dessa forma, a justificativa do projeto é o aumento do consumo de computadores porém de baixa automatização pela falta de auxílio e orientação na venda, onde queremos mudar esta situação.
 
 
 ## Público-Alvo
 
-O foco deste trabalho está no público jovem e adulto, pois é um público que utiliza frequentemente e precisa de peças de computadores que atendam a necessidade de lazeres e serviços.
+  O foco deste trabalho está no público jovem e adulto entre 16 a 40 anos, pois é um público que utiliza frequentemente o computador e constantemente necessitam de peças melhores que atendam a necessidade de lazeres e serviços, mas disponibilizamos a plataforma para atender qualquer idade.
 
  
 # Especificações do Projeto
