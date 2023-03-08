@@ -57,17 +57,17 @@ Sistemas de Informação
 
 # Introdução
 
-  O Comércio eletrônico de peças para computadores é um espaço em constante desenvolvimento, pois sucessivamente são criadas novas peças no qual o fornecedor tende ter que estudá-las para poder repassar o produto ao cliente de forma clara e explícita a utilidade de tal peça e suas compatibilidades, sendo um dos maiores desafios. Além disso, essas lojas virtuais a todo momento tem que atualizar a plataforma por conta novas peças, mas principalmente pelas táticas de marketing e venda da mercadoria.
+  O Comércio eletrônico de peças para computadores é um espaço em constante desenvolvimento, pois sucessivamente são criadas novas peças. O fornecedor tende a ter que estudá-las para poder repassar o produto aos clientes de forma clara e explícita, demonstrando utilidade de cada peça e suas compatibilidades, apesar de ser um dos maiores desafios. Além disso, essas lojas virtuais a todo momento tem que atualizar a plataforma por conta novas peças, mas principalmente pelas táticas de marketing e venda da mercadoria.
 
 
 ## Problema
 
-  O problema das lojas virtuais de peças para computadores é que muitos fornecedores não atualizam certos aspectos da plataforma como a principalmente a funcionalidade de tal peça e a sua compatibilidade dela com as demais peças, no qual diversos clientes são obrigados  a recorrer por meios externos para saber a qualidade do produto onde estes e-commerce estão focando em massa na parte de marketing que esquece de auxiliar o cliente. Assim queremos melhorar principalmente o atendimento ao cliente  tornando esta parte prática e explicativa.
+  O problema das lojas virtuais de peças para computadores se da por muitos fornecedores não atualizarem alguns aspectos da plataforma, como a funcionalidade de tal peça e a sua compatibilidade com as demais, no qual diversos clientes são obrigados a recorrer de meios externos para se informar da qualidade do produto. Estes e-commerce estão focando em massa na parte de marketing, mas esquecem de auxiliar o cliente. Assim queremos melhorar o atendimento ao cliente, a fim de tornando está parte prática e explicativa.
 
 
 ## Objetivos
 
-  O objetivo geral do nosso trabalho é desenvolver uma loja virtual de peças para computadores que consiga atender todos os grupos de pessoas com esclarecimento e interatividade.
+  O objetivo geral do nosso trabalho é desenvolver uma loja virtual de peças para computadores, que consiga atender todos os grupos de pessoas com esclarecimento e interatividade.
   Como objetivos específicos, podemos ressaltar:
 
 ●	Explicar a função de cada peça;
@@ -80,11 +80,13 @@ Sistemas de Informação
 
 ●	Descontos para clientes frequentes;
 
+● Peças mais vendidas;
+
 
 
 ## Justificativa
 
-  Segundo Fundação Getúlio Vargas o Brasil vai ultrapassar 216 milhões de computadores (desktop, notebook e tablet) em uso no Brasil no início de 2023, atingindo 1 computador por habitantes (100% per capita). As vendas em 2021 tiveram um crescimento espantoso de 27% com 14 milhões de unidades. Entretanto, muitos desses computadores são lentos e cheios de problemas e demoram até 40% mais tempo para realizar tarefas, na comparação com equipamentos que utilizam softwares e serviços adequados. Essa foi a conclusão a que chegou o estudo Brain On Tech, realizado pela Dell Technologies em parceria com a EMOTIV.​ Dessa forma, a justificativa do projeto é o aumento do consumo de computadores porém de baixa automatização pela falta de auxílio e orientação na venda, onde queremos mudar esta situação.
+  Segundo Fundação Getúlio Vargas o Brasil vai ultrapassar 216 milhões de computadores (desktop, notebook e tablet) em uso no Brasil no início de 2023, atingindo 1 computador por habitantes (100% per capita). As vendas em 2021 tiveram um crescimento espantoso de 27% com 14 milhões de unidades. Entretanto, muitos desses computadores são lentos e cheios de problemas e demoram até 40% mais tempo para realizar tarefas, na comparação com equipamentos que utilizam softwares e serviços adequados. Essa foi a conclusão a que chegou o estudo Brain On Tech, realizado pela Dell Technologies em parceria com a EMOTIV. Dessa forma, a justificativa do projeto é o aumento do consumo de computadores porém de baixa automatização pela falta de auxílio e orientação na venda, onde queremos mudar esta situação.
 
 
 ## Público-Alvo
