@@ -1,0 +1,59 @@
+body {
+    background-color: #F5F5F5; /* Cor de fundo cinza escuro */
+    color: #333; /* Cor de texto padrão */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: #8BC34A; /* Cor de fundo verde claro */
+    color: #fff; /* Cor de texto branco */
+    padding: 20px;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Borda cinza claro */
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo cinza claro para linhas pares */
+}
+
+.total {
+    float: right;
+    font-size: 24px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: right;
+    background-color: #8BC34A; /* Cor de fundo verde claro */
+    color: #fff; /* Cor de texto branco */
+}
+
+.continue-shopping {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #8BC34A; /* Cor de fundo verde claro */
+    color: #fff; /* Cor de texto branco */
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.continue-shopping:hover {
+    background-color: #689F38; /* Cor de fundo verde escuro no hover */
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }

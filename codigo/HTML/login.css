@@ -1,0 +1,11 @@
+body{
+    background-color:#474747
+   
+  }
+  ::placeholder {
+      color: lightgreen!important;
+      opacity: 0,5;
+  }
+  p{
+    color: red
+  }

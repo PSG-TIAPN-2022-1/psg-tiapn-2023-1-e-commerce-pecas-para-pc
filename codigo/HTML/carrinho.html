@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carrinho.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">LOGO</h5> 
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				  </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="carrinho.html">Carrinho</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="favoritos.html">Favoritos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Serviços
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Atendimento</a></li>
+                    <li><a class="dropdown-item" href="#">Dúvidas</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="montarPC.html">MONTAR MEU PC</a></li>
+                    <li><a class="dropdown-item" href="login.html">LOGIN</a></li>
+
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Pesquisar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+	  <section class="h-100 h-custom" style="background-color: #ddd;">
+		<div class="container py-5 h-100">
+		  <div class="row d-flex justify-content-center align-items-center h-100">
+			<div class="col">
+			  <div class="card">
+				<div class="card-body p-4">
+	  
+				  <div class="row">
+	  
+					<div class="col-lg-7">
+					  <h5 class="mb-3"><a href="index.html" class="text-body"><i
+							class="fas fa-long-arrow-alt-left me-2"></i>Continuar Comprando</a></h5>
+					  <hr>
+	  
+					  <div class="d-flex justify-content-between align-items-center mb-4">
+						<div>
+						  <p class="mb-1">Meu Carrinho</p>
+						  <p class="mb-0">Você tem 4 itens no seu carrinho</p>
+						</div>
+						<div>
+						  <p class="mb-0"><span class="text-muted">Filtrar por:</span> <a href="#!"
+							  class="text-body">Preço <i class="fas fa-angle-down mt-1"></i></a></p>
+						</div>
+					  </div>
+	  
+					  <div class="card mb-3">
+						<div class="card-body">
+						  <div class="d-flex justify-content-between">
+							<div class="d-flex flex-row align-items-center">
+							  <div>
+								<img
+								  src="https://s2.glbimg.com/NaWdSD_-mHDjuaj1PbO2CXhXV8w=/0x0:695x521/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2017/Q/q/F5BBqCR4AtDbXjT2jtAQ/gigabyte-aorus-570.png"
+								  class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+							  </div>
+							  <div class="ms-3">
+								<h5>Radeon RX 570</h5>
+								<p class="small mb-0">4 GB de VRAM</p>
+							  </div>
+							</div>
+							<div class="d-flex flex-row align-items-center">
+							  <div style="width: 50px;">
+								<h5 class="fw-normal mb-0">2</h5>
+							  </div>
+							  <div style="width: 80px;">
+								<h5 class="mb-0">R$900</h5>
+							  </div>
+							  <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+							</div>
+						  </div>
+						</div>
+					  </div>
+	  
+					  <div class="card mb-3">
+						<div class="card-body">
+						  <div class="d-flex justify-content-between">
+							<div class="d-flex flex-row align-items-center">
+							  <div>
+								<img
+								  src="https://images.tcdn.com.br/img/img_prod/740836/processador_intel_core_i5_9400f_cache_9mb_2_9ghz_4_1ghz_max_turbo_lga_1151_11505_1_b80806826f9b3410cafa4444a160ca05.png"
+								  class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+							  </div>
+							  <div class="ms-3">
+								<h5>Processador Intel Core I5-9400f </h5>
+								<p class="small mb-0"> Cache 9mb, 2.9ghz (4.1ghz Max Turbo), Lga 1151 </p>
+							  </div>
+							</div>
+							<div class="d-flex flex-row align-items-center">
+							  <div style="width: 50px;">
+								<h5 class="fw-normal mb-0">2</h5>
+							  </div>
+							  <div style="width: 80px;">
+								<h5 class="mb-0">R$980</h5>
+							  </div>
+							  <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+							</div>
+						  </div>
+						</div>
+					  </div>
+	  
+					  <div class="card mb-3">
+						<div class="card-body">
+						  <div class="d-flex justify-content-between">
+							<div class="d-flex flex-row align-items-center">
+							  <div>
+								<img
+								  src="https://m.media-amazon.com/images/I/61eXyK93hQL._AC_SX466_.jpg"
+								  class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+							  </div>
+							  <div class="ms-3">
+								<h5>Processador AMD RYZEN 7 5700X</h5>
+								<p class="small mb-0">3.4GHz (TURBO 4.6GHz) 32MB CACHE AM4 100-100000926WOF, Cerâmica cinza</p>
+							  </div>
+							</div>
+							<div class="d-flex flex-row align-items-center">
+							  <div style="width: 50px;">
+								<h5 class="fw-normal mb-0">1</h5>
+							  </div>
+							  <div style="width: 80px;">
+								<h5 class="mb-0">R$1199</h5>
+							  </div>
+							  <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+							</div>
+						  </div>
+						</div>
+					  </div>
+	  
+					  <div class="card mb-3 mb-lg-0">
+						<div class="card-body">
+						  <div class="d-flex justify-content-between">
+							<div class="d-flex flex-row align-items-center">
+							  <div>
+								<img
+								  src="https://images.tcdn.com.br/img/img_prod/740836/gabinete_gamer_pcfort_endless_rgb_com_3_fans_rgb_preto_13455_1_f9db432996b8ca1965fba62f6383c984.jpg"
+								  class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+							  </div>
+							  <div class="ms-3">
+								<h5>Gabinete Gamer PCFort Endless RGB </h5>
+								<p class="small mb-0"> RGB - 3 fans Preto fosco </p>
+							  </div>
+							</div>
+							<div class="d-flex flex-row align-items-center">
+							  <div style="width: 50px;">
+								<h5 class="fw-normal mb-0">1</h5>
+							  </div>
+							  <div style="width: 80px;">
+								<h5 class="mb-0">R$799</h5>
+							  </div>
+							  <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+							</div>
+						  </div>
+						</div>
+					  </div>
+	  
+					</div>
+					<div class="col-lg-5">
+	  
+					  <div class="card bg-primary text-white rounded-3">
+						<div class="card-body">
+						  <div class="d-flex justify-content-between align-items-center mb-4">
+							<h5 class="mb-0">Detalhes do Cartão</h5>
+							<img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp"
+							  class="img-fluid rounded-3" style="width: 45px;" alt="Avatar">
+						  </div>
+	  
+						  <p class="small mb-2">Crédito / Débito</p>
+						  <a href="#!" type="submit" class="text-white"><i
+							  class="fab fa-cc-mastercard fa-2x me-2"></i></a>
+						  <a href="#!" type="submit" class="text-white"><i
+							  class="fab fa-cc-visa fa-2x me-2"></i></a>
+						  <a href="#!" type="submit" class="text-white"><i
+							  class="fab fa-cc-amex fa-2x me-2"></i></a>
+						  <a href="#!" type="submit" class="text-white"><i class="fab fa-cc-paypal fa-2x"></i></a>
+	  
+						  <form class="mt-4">
+							<div class="form-outline form-white mb-4">
+							  <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
+								placeholder="Nome (Igual no cartão)" />
+							  <label class="form-label" for="typeName">Nome impresso no cartão</label>
+							</div>
+	  
+							<div class="form-outline form-white mb-4">
+							  <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
+								placeholder="1234 5678 9012 3457" minlength="19" maxlength="19" />
+							  <label class="form-label" for="typeText">Número do cartão</label>
+							</div>
+	  
+							<div class="row mb-4">
+							  <div class="col-md-6">
+								<div class="form-outline form-white">
+								  <input type="text" id="typeExp" class="form-control form-control-lg"
+									placeholder="Mês / Ano" size="7" id="exp" minlength="7" maxlength="7" />
+								  <label class="form-label" for="typeExp">Válido até:</label>
+								</div>
+							  </div>
+							  <div class="col-md-6">
+								<div class="form-outline form-white">
+								  <input type="password" id="typeText" class="form-control form-control-lg"
+									placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3" />
+								  <label class="form-label" for="typeText">Cvv</label>
+								</div>
+							  </div>
+							</div>
+	  
+						  </form>
+	  
+						  <hr class="my-4">
+	  
+						  <div class="d-flex justify-content-between">
+							<p class="mb-2">Subtotal</p>
+							<p class="mb-2">R$3.878,00</p>
+						  </div>
+	  
+						  <div class="d-flex justify-content-between">
+							<p class="mb-2">Frete</p>
+							<p class="mb-2">R$20,00</p>
+						  </div>
+	  
+						  <div class="d-flex justify-content-between mb-4">
+							<p class="mb-2">Total(Incl. Frete)</p>
+							<p class="mb-2">R$3.898,00</p>
+						  </div>
+	                     <a href="pagamento.html">
+						  <button type="button" class="btn btn-info btn-block btn-lg"> 
+							<div class="d-flex justify-content-between">
+								
+							  <span>R$3.898,00   </span>
+							 <br> <span> ou 10x de R$389,80 sem juros <i class="fas fa-long-arrow-alt-right ms-2"></i></span>
+							</div>
+						  </button>
+	                    </a>
+						</div>
+					  </div>
+	  
+					</div>
+	  
+				  </div>
+	  
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- Footer -->
+
+<footer class="text-center text-lg-start bg-dark text-white">
+    <!-- Section: Social media -->
+   
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>Nome do site
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, velit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, omnis.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Produtos
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Quem somos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Formas de pagamento</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Dúvidas frequentes</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Proposta</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+             links Úteis
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Nossos Preços</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Personalizar</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Meus Pedidos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Ajuda</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+            <p><i class="fas fa-home me-3 text-white"></i> Belo Horizonte, MG 2023, BR</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-white"></i>
+              info@exemplo.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-white"></i> + 31 XXXX-XXXX</p>
+            <p><i class="fas fa-print me-3 text-white"></i> + 31 XXXX-XXXX</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+</html>

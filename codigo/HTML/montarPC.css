@@ -1,0 +1,7 @@
+label {
+    display: block;
+    font-weight: bold;
+}
+select {
+    margin-bottom: 20px;
+}
