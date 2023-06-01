@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Perfil   </title>
+    <link rel="stylesheet" href="editar.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">LOGO</h5> 
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				  </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="carrinho.html">Carrinho</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="favoritos.html">Favoritos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Serviços
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="atendimento.html">Atendimento</a></li>
+                    <li><a class="dropdown-item" href="duvidas.html">Dúvidas</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="montarPC.html">MONTAR MEU PC</a></li>
+                    <li><a class="dropdown-item" href="login.html">LOGIN</a></li>
+
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Pesquisar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+
+      <div class="container">
+    <br><br>  <div class="row">
+              <div class="col-12">
+                  <!-- Page title -->
+                  <div class="my-5">
+                      <h3>Meu Perfil</h3>
+                      <hr>
+                  </div>
+                  <!-- Form START -->
+                  <form class="file-upload">
+                      <div class="row mb-5 gx-5">
+                          <!-- Contact detail -->
+                          <div class="col-xxl-8 mb-5 mb-xxl-0">
+                              <div class="bg-secondary-soft px-4 py-5 rounded">
+                                  <div class="row g-3">
+                                      <h4 class="mb-4 mt-0">Contato</h4>
+                                      <!-- First Name -->
+                                      <div class="col-md-6">
+                                          <label class="form-label">Nome *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="First name" value="Usuário">
+                                      </div>
+                                      <!-- Last name -->
+                                      <div class="col-md-6">
+                                          <label class="form-label">Sobrenome *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Last name" value="XXXXXXX">
+                                      </div>
+                                      <!-- Phone number -->
+                                      <div class="col-md-6">
+                                          <label class="form-label">Telefone *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Phone number" value="(31) 0000 0000">
+                                      </div>
+                                      <!-- Mobile number -->
+                                      <div class="col-md-6">
+                                          <label class="form-label">Celular *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Phone number" value="(31) 9 0000 0000">
+                                      </div>
+                                      <!-- Email -->
+                                      <div class="col-md-6">
+                                          <label for="inputEmail4" class="form-label">Email *</label>
+                                          <input type="email" class="form-control" id="inputEmail4" value="exemplo@exemplo.com">
+                                      </div>
+                                      <!-- Skype -->
+                                      <div class="col-md-6">
+                                          <label class="form-label">Discord *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Usuário" value="XXXX #0000">
+                                      </div>
+                                  </div> <!-- Row END -->
+                              </div>
+                          </div>
+                          <!-- Upload profile -->
+                          <div class="col-xxl-4">
+                              <div class="bg-secondary-soft px-4 py-5 rounded">
+                                  <div class="row g-3">
+                                      <h4 class="mb-4 mt-0">Nova foto de perfil</h4>
+                                      <div class="text-center">
+                                          <!-- Image upload -->
+                                          <div class="square position-relative display-2 mb-3">
+                                              <i class="fas fa-fw fa-user position-absolute top-50 start-50 translate-middle text-secondary"></i>
+                                          </div>
+                                          <!-- Button -->
+                                          <input type="file" id="customFile" name="file" hidden="">
+                                          <label class="btn btn-success-soft btn-block" for="customFile">Salvar</label>
+                                          <button type="button" class="btn btn-danger-soft">Remover</button>
+                                          <!-- Content -->
+                                          <p class="text-muted mt-3 mb-0"><span class="me-1">Obs:</span>Tamanho mínimo 300px x 300px</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> <!-- Row END -->
+      
+                      <!-- Social media detail -->
+                      <div class="row mb-5 gx-5">
+                          <div class="col-xxl-6 mb-5 mb-xxl-0">
+                              <div class="bg-secondary-soft px-4 py-5 rounded">
+                                  <div class="row g-3">
+                                      <h4 class="mb-4 mt-0">Redes Sociais</h4>
+                                      <!-- Facebook -->
+                                      <div class="col-md-6">
+                                          <label class="form-label"><i class="fab fa-fw fa-facebook me-2 text-facebook"></i>Facebook *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Facebook" value="http://www.facebook.com">
+                                      </div>
+                                      <!-- Twitter -->
+                                      <div class="col-md-6">
+                                          <label class="form-label"><i class="fab fa-fw fa-twitter text-twitter me-2"></i>Twitter *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Twitter" value="http://www.twitter.com">
+                                      </div>
+                                      <!-- Linkedin -->
+                                      <div class="col-md-6">
+                                          <label class="form-label"><i class="fab fa-fw fa-linkedin-in text-linkedin me-2"></i>Linkedin *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Linkedin" value="http://www.linkedin.com">
+                                      </div>
+                                      <!-- Instragram -->
+                                      <div class="col-md-6">
+                                          <label class="form-label"><i class="fab fa-fw fa-instagram text-instagram me-2"></i>Instagram *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Instragram" value="http://www.instragram.com">
+                                      </div>
+                                      <!-- Dribble -->
+                                      <div class="col-md-6">
+                                          <label class="form-label"><i class="fas fa-fw fa-basketball-ball text-dribbble me-2"></i>Dribble *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Dribble" value="http://www.dribble.com">
+                                      </div>
+                                      <!-- Pinterest -->
+                                      <div class="col-md-6">
+                                          <label class="form-label"><i class="fab fa-fw fa-pinterest text-pinterest"></i>Pinterest *</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Pinterest" value="http://www.pinterest.com">
+                                      </div>
+                                  </div> <!-- Row END -->
+                              </div>
+                          </div>
+      
+                          <!-- change password -->
+                          <div class="col-xxl-6">
+                              <div class="bg-secondary-soft px-4 py-5 rounded">
+                                  <div class="row g-3">
+                                      <h4 class="my-4">Mudar senha</h4>
+                                      <!-- Old password -->
+                                      <div class="col-md-6">
+                                          <label for="exampleInputPassword1" class="form-label">Senha antiga *</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword1">
+                                      </div>
+                                      <!-- New password -->
+                                      <div class="col-md-6">
+                                          <label for="exampleInputPassword2" class="form-label">Nova senha *</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword2">
+                                      </div>
+                                      <!-- Confirm password -->
+                                      <div class="col-md-12">
+                                          <label for="exampleInputPassword3" class="form-label">Confirmar senha *</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword3">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> <!-- Row END -->
+                      <!-- button -->
+                      <div class="gap-3 d-md-flex justify-content-md-end text-center">
+                          <button type="button" class="btn btn-danger btn-lg">Excluir perfil</button>
+                          <button type="button" class="btn btn-primary btn-lg">Atualizar perfil</button>
+                      </div>
+                  </form> <!-- Form END -->
+              </div>
+          </div>
+          </div>
+
+
+
+
+      
+<!-- Footer -->
+
+<br><br><footer class="text-center text-lg-start bg-dark text-white">
+    <!-- Section: Social media -->
+   
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>Nome do site
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, velit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, omnis.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Produtos
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Quem somos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Formas de pagamento</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Dúvidas frequentes</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Proposta</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+             links Úteis
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Nossos Preços</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Personalizar</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Meus Pedidos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Ajuda</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+            <p><i class="fas fa-home me-3 text-white"></i> Belo Horizonte, MG 2023, BR</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-white"></i>
+              info@exemplo.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-white"></i> + 31 XXXX-XXXX</p>
+            <p><i class="fas fa-print me-3 text-white"></i> + 31 XXXX-XXXX</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+</body>
+</html>
