@@ -1,25 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monte seu computador</title>
     <link rel="stylesheet" href="montarPC.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
-<meta charset="utf-8">
-
-
-<title>bs4 product detail - Bootdey.com</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-</head>
 <body>
-
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+	<nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">LOGO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -65,99 +56,65 @@
           </div>
         </div>
       </nav>
-
-
-
-
-<br><br><br>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<div class="container">
-<div class="card">
-<div class="card-body">
-<h3 class="card-title">Monte Seu PC</h3>
-<h6 class="card-subtitle">Escolha os componentes ideias para você:</h6>
-<div class="row">
-<div class="col-lg-5 col-md-5 col-sm-6">
-<div class="white-box text-center"><img src="imgs/monte_seu_pc.png" class="img-responsive" width="430" height="500"></div>
-</div>
-<div class="col-lg-7 col-md-7 col-sm-6">
-<h4 class="box-title mt-5">Selecione os itens de sua preferencia:</h4>
-<br><div class="col-md-3 col-sm-6">
+    
+    <br><br><br><br> <div id="componentes">
+    <h2>Componentes</h2>
+    <br><div class="col-md-3 col-sm-6">
 
       
 
     <label for="processador">Processador:</label>
-    <select id="processador" onchange="montarPC()">
-        <option value=""></option>
-        <option value="Processador I5-9400">Processador I5-9400F</option>
-        <option value="Processador I3-7100">Processador I3-7100</option>
-        <option value="Processador I9-9900K">Processador I9-9900K</option>
+    <select id="processador">
+      <option value="processador1">Processador I5-9400F</option>
+      <option value="processador2">Processador I3-7100</option>
+      <option value="processador3">Processador I9-9900K</option>
       <!-- Adicione mais opções conforme necessário -->
     </select>
   </div>
 
   <br><div class="col-md-4 col-sm-8">
     <label for="placa-mae">Placa-mãe:</label>
-    <select id="placa-mae" onchange="montarPC()">
-        <option value=""></option>
-      <option value="Placa-mãe ASUS A320m">Placa-mãe ASUS A320m</option>
-      <option value="Placa-mãe GIGABYTE Z690 UD">Placa-mãe GIGABYTE Z690 UD</option>
-      <option value="Placa-mãe Asus Prime X570 Pro AMD AM4">Placa-mãe Asus Prime X570 Pro AMD AM4</option>
+    <select id="placa-mae">
+      <option value="placa-mae1">Placa-mãe ASUS A320m</option>
+      <option value="placa-mae2">Placa-mãe GIGABYTE Z690 UD</option>
+      <option value="placa-mae3">Placa-mãe Asus Prime X570 Pro AMD AM4</option>
       <!-- Adicione mais opções conforme necessário -->
     </select>
   </div>
 
   <br><div class="col-md-3 col-sm-8">
     <label for="memoria-ram">Memória RAM:</label>
-    <select id="memoria-ram" onchange="montarPC()">
-        <option value=""></option>
-        <option value="Memória Ram Ddr4 Kllisre 8gb">Memória Ram Ddr4 Kllisre 8gb</option>
-        <option value="Memória HyperX Fury 4GB">Memória HyperX Fury 4GB</option>
-        <option value="Memória RAM Kingston FURY">Memória RAM Kingston FURY</option>
+    <select id="memoria-ram">
+      <option value="memoria-ram1">Memória Ram Ddr4 Kllisre 8gb</option>
+      <option value="memoria-ram2">Memória HyperX Fury 4GB</option>
+      <option value="memoria-ram3">Memória RAM Kingston FURY</option>
       <!-- Adicione mais opções conforme necessário -->
     </select>
 
     <!-- Adicione mais componentes conforme necessário -->
+
+   <br> <br><button onclick="montarPC()">Montar PC</button>
+  </div>
 </div>
-<h2 class="mt-5">
-R$1000,00<small class="text-success">(10%off no PIX)</small>
-</h2>
-<button class="btn btn-dark btn-rounded mr-1" data-toggle="tooltip" title data-original-title="Add to cart" onclick="teste()">
-<i class="fa fa-shopping-cart"></i>
-</button>
-<button class="btn btn-primary btn-rounded">Favoritos</button>
-</ul>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12">
-<h3 class="box-title mt-5">Informações Gerais</h3>
-<div class="table-responsive">
-<table class="table table-striped table-product">
-<tbody>
-<tr>
-<td width="390">Processador</td>
-<td id="infoProcessador"></td>
-</tr>
-<tr>
-<td>Placa-Mãe</td>
-<td id="infoPlacaMae"></td>
-</tr>
-<tr>
-<td>Memória RAM</td>
-<td id="infoMemoriaRAM"></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src = "montarPC.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript">
-	
-</script>
+
+ <br><br> <div id="resultado">
+    <h2>Resultado</h2>
+    <p id="pc-montado"></p>
+  </div>
+
+  <script>
+    function montarPC() {
+      var processador = document.getElementById("processador").value;
+      var placaMae = document.getElementById("placa-mae").value;
+      var memoriaRAM = document.getElementById("memoria-ram").value;
+
+      // Lógica para montar o PC com os componentes selecionados
+      var pcMontado = "Processador: " + processador + "<br>";
+      pcMontado += "Placa-mãe: " + placaMae + "<br>";
+      pcMontado += "Memória RAM: " + memoriaRAM + "<br>";
+
+      document.getElementById("pc-montado").innerHTML = pcMontado;
+    }
+  </script>
 </body>
 </html>
