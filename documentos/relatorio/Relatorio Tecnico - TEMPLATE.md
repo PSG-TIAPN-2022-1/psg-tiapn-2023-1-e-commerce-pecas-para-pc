@@ -44,7 +44,6 @@ Sistemas de Informação
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -348,7 +347,7 @@ Modelo Conceitual
 ![Modelo_Logico](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/fa7e49db-22a1-44ac-abed-aa074c460d1e)
 Modelo Lógico
 
-### Desenvolvimento de Algoritmo
+### Desenvolvimento de Algoritmos
 
 > Após finalizar o Projeto dos wireframes, dos requisitos e do banco de dados, o proximo passo foi desenvolver as soluções modeladas.
 > Foi utilizado durante o desenvolvimento do Site:
