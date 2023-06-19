@@ -269,7 +269,7 @@ Na aba cadastro, o usuário pode criar sua conta e se conectar ao nosso site, as
 |-----------|-------------------------|---------------| 
 |Repositório de código | GitHub | https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc | 
 |Projeto de Interface e  Wireframes | Figma |  https://www.figma.com/file/o0m4xKHTiRQRp1ii8IuKUU/Untitled?node-id=0%3A1&t=7GRdXIimAE0Np5Py-0 | 
-|Gerenciamento do Projeto | Trello | Em construção |
+|Gerenciamento do Projeto | Trello | https://trello.com/b/1U5Da4ey/ |
 > 
 > 
 
