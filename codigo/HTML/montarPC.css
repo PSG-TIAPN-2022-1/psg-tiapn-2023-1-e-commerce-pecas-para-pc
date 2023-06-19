@@ -26,5 +26,13 @@ body{
 }
 .table-product td{
     border-top: 0px solid #dee2e6 !important;
-    color: #728299!important;
+    color: black!important;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+select {
+    margin-bottom: 20px;
 }
