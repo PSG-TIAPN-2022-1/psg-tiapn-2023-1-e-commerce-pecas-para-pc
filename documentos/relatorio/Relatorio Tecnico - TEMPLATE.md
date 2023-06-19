@@ -348,10 +348,15 @@ Modelo Lógico
 
 > Após finalizar o Projeto dos wireframes, dos requisitos e do banco de dados, o proximo passo foi desenvolver as soluções modeladas.
 > Foi utilizado durante o desenvolvimento do Site:
+> 
 > Linguagem de marcação HTML e CSS.
+> 
 > Framework Bootstrap.
+> 
 > JavaScript para a interatividade das páginas.
+> 
 > Python e SQL Server para criação do Banco de Dados.
+> 
 > Python para criação de automações e relatórios de sistema.
 >
 > Todas essas ferramentas foram utilizadas para desenvolver códigos que estão disponíveis no link: https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/tree/master/codigo.
