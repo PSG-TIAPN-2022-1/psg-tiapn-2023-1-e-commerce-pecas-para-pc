@@ -277,16 +277,18 @@ Na aba cadastro, o usuário pode criar sua conta e se conectar ao nosso site, as
 
 >A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 >
->A equipe está organizada da seguinte maneira:
+>Todos do grupo participaram de todas as atividades relacionadas ao trabalho, mas as responsábilidades da equipe está organizada da seguinte maneira:
 >
 >Scrum Master: Leonardo Vilela Cardoso
 >
->**Equipe de Desenvolvimento:**
+>**Equipe de BackEnd:**
 >
 > -Henrique Carrara
 > 
 > -Thiago Akihiro
-> 
+>
+>**Equipe de FrontEnd:*
+>
 > -Wander Buzatti
 > 
 > -Hitalo Almeida
@@ -318,29 +320,42 @@ Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para es
 ![image](https://user-images.githubusercontent.com/79370543/222237503-419f48f0-0361-4feb-a47d-ad9aa972f674.png)
 
 
-# **############## SPRINT 1 ACABA AQUI #############**
-
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+>O projeto da solução consiste no desenvolvimento de uma aplicação WEB funcional, que possibilite uma experiencia agradável de compra ao usuario, com auxilios necessários para escolha dos itens. A plataforma tem foco em usabilidade, possibilitando navegação fácil pelo produtos da loja, dividindo-os por categorias relevantes.
+>O E-commerce contará com recursos avançados, informações sobre os produtos e suas compatibilidades. Aspectos que são cruciais para auxiliar o usuario na escolha do produto ideal.
+>Também serão implementados recursos essenciais como: carrinho de compra, aba de pagamentos seguro, lista de favoritos e suporte ao cliente.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Para a criação dessa aplicação WEB foram integradas várias tecnologias diferentes, cada uma para uma para um proposito específico nas diferentes fases do projeto.
+> Na fase Projeto, grande parte das tecnlogias que foram utilizadas já foram citadas nos itens "Wireframes" e "Metodologia", como por exemplo o Figma, o Trello e o proprio GitHub.
+>
+### Modelagem de Negócio
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
+> Além desses já citados, a modelagem do processos do negócio foi uma importante etapa da fase de Projeto da solução. Para a criação dos diagramas foi utilizado a ferramenta online Draw.io e a partir dela obteve-se o seguinte diagrama BPMN:
+
+![image](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/31f61cc7-4c1b-42df-93a9-c4d99dfedbeb)
+
+> No prómixo momento foi feita a Modelagem de Dados, utilizando a ferramento BrModelo. Obteve-se então a parte do projeto do Banco de Dados, sendo comporta pelos modelos relacionais e lógico:
+
+![Modelo_Conceitual](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/482c01e8-343b-4709-b38c-e40629485f6a)
+Modelo Conceitual
+
+![Modelo_Logico](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/fa7e49db-22a1-44ac-abed-aa074c460d1e)
+Modelo Lógico
+
+> Após finalizar o Projeto dos wireframes, dos requisitos e do banco de dados, o proximo passo foi desenvolver as soluções modeladas.
+> Foi utilizado durante o desenvolvimento do Site:
+> Linguagem de marcação HTML e CSS.
+> Framework Bootstrap.
+> JavaScript para a interatividade das páginas.
+> Python e SQL Server para criação do Banco de Dados.
+> Python para criação de automações e relatórios de sistema.
+>
+> Todas essas ferramentas foram utilizadas para desenvolver códigos que estão disponíveis no link: https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/tree/master/codigo.
 > 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
 
 ## Arquitetura da solução
 
