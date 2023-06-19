@@ -338,6 +338,8 @@ Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para es
 
 ![image](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/31f61cc7-4c1b-42df-93a9-c4d99dfedbeb)
 
+### Modelagem de Dados
+
 > No prómixo momento foi feita a Modelagem de Dados, utilizando a ferramento BrModelo. Obteve-se então a parte do projeto do Banco de Dados, sendo comporta pelos modelos relacionais e lógico:
 
 ![Modelo_Conceitual](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/482c01e8-343b-4709-b38c-e40629485f6a)
@@ -345,6 +347,8 @@ Modelo Conceitual
 
 ![Modelo_Logico](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/fa7e49db-22a1-44ac-abed-aa074c460d1e)
 Modelo Lógico
+
+### Desenvolvimento de Algoritmo
 
 > Após finalizar o Projeto dos wireframes, dos requisitos e do banco de dados, o proximo passo foi desenvolver as soluções modeladas.
 > Foi utilizado durante o desenvolvimento do Site:
