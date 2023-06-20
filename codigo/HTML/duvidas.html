@@ -4,9 +4,272 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagamento</title>
+     <link rel="stylesheet" href="duvidas.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">LOGO</h5> 
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="carrinho.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carrinho.html">Carrinho</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="favoritos.html">Favoritos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Serviços
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Atendimento</a></li>
+                    <li><a class="dropdown-item" href="#">Dúvidas</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="montarPC.html">MONTAR MEU PC</a></li>
+                    <li><a class="dropdown-item" href="login.html">LOGIN</a></li>
+
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Pesquisar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+     <br><section class="bg-secondary">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-10">
+                  <div class="card card-style1 border-0">
+                      <div class="card-body p-4 p-md-5 p-xl-6">
+                          <div class="text-center mb-2-3 mb-lg-6">
+                              <span class="section-title text-primary">FAQ</span>
+                              <h2 class="h1 mb-0 text-secondary">Dúvidas Frequentes</h2>
+                          </div>
+                          <div id="accordion" class="accordion-style">
+                              <div class="card mb-3">
+                                  <div class="card-header" id="headingOne">
+                                      <h5 class="mb-0">
+                                          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span class="text-theme-secondary me-2">Q.</span> Qual é a política de devolução?</button>
+                                      </h5>
+                                  </div>
+                                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+                                      <div class="card-body">
+                                        Nosso objetivo é garantir a satisfação dos clientes, portanto, temos uma política de devolução flexível. Se você receber um produto com defeito ou que não atenda às suas expectativas, entre em contato conosco dentro de [número de dias] dias após o recebimento. Faremos o possível para resolver o problema. Para mais informações sobre nossa política de devolução, consulte a seção "Política de Devolução" em nosso site.                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card mb-3">
+                                  <div class="card-header" id="headingTwo">
+                                      <h5 class="mb-0">
+                                          <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="text-theme-secondary me-2">Q.</span> Quais métodos de pagamento serão feitos?</button>
+                                      </h5>
+                                  </div>
+                                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+                                      <div class="card-body">
+                                        Oferecemos diversas opções de pagamento para sua conveniência. Aceitamos cartões de crédito, como Visa, MasterCard e American Express. Também aceitamos pagamentos via PayPal, transferência bancária e boleto bancário. Ao finalizar a compra, você poderá selecionar o método de pagamento de sua preferência.                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card mb-3">
+                                  <div class="card-header" id="headingThree">
+                                      <h5 class="mb-0">
+                                          <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="text-theme-secondary me-2">Q.</span> Vocês oferecem garantia?</button>
+                                      </h5>
+                                  </div>
+                                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
+                                      <div class="card-body">
+                                        Sim, todos os produtos que vendemos são cobertos por uma garantia. A duração da garantia pode variar dependendo do fabricante e do produto específico. Antes de fazer sua compra, recomendamos verificar a página do produto em nosso site para obter informações detalhadas sobre a garantia oferecida. Caso encontre algum problema coberto pela garantia, entre em contato conosco e teremos prazer em ajudá-lo a resolver a questão.                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card mb-3">
+                                  <div class="card-header" id="headingFour">
+                                      <h5 class="mb-0">
+                                          <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><span class="text-theme-secondary me-2">Q.</span> Como faço para acompanhar a entrega do meu pedido?</button>
+                                      </h5>
+                                  </div>
+                                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
+                                      <div class="card-body">
+                                        Após a realização da compra, você receberá um e-mail de confirmação com os detalhes do seu pedido, incluindo um número de rastreamento, se aplicável. Com esse número, você poderá acompanhar o status da entrega diretamente no site da transportadora responsável. Caso tenha criado uma conta em nosso site durante a compra, você também poderá fazer login e visualizar o status do seu pedido na seção "Minhas Compras" ou "Histórico de Pedidos". Se tiver dúvidas adicionais sobre o acompanhamento da entrega, nossa equipe de suporte ao cliente estará pronta para ajudá-lo.                                      </div>
+                                  </div>
+                              </div>
+                              <div class="card mb-3">
+                                <div class="card-header" id="headingSix">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><span class="text-theme-secondary me-2">Q.</span> Caso eu tenha uma dúvida específica que não esta listada aqui?</button>
+                                    </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        Para dúvidas que não estão listadas nessa página, você pode acessar a página de atendimento para uma consulta com nossos especialistas. Nela, você poderá interagir com nossa central e fazer perguntas específicas.                                    </div>
+                                </div>
+                            </div>
+                              <div class="card">
+                                  <div class="card-header" id="headingFive">
+                                      <h5 class="mb-0">
+                                          <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><span class="text-theme-secondary me-2">Q.</span> Quanto tempo leva para a entrega dos produtos?</button>
+                                      </h5>
+                                  </div>
+                                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
+                                      <div class="card-body">
+                                        O prazo de entrega pode variar dependendo de alguns fatores, como sua localização geográfica e a disponibilidade do produto em nosso estoque. Geralmente, fazemos o possível para processar e despachar os pedidos o mais rápido possível.                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+
     
+
+       <!-- Footer -->
+
+<footer class="text-center text-lg-start bg-dark text-white">
+  <!-- Section: Social media -->
+ 
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Nome do site
+          </h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, velit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, omnis.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Produtos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Quem somos</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Formas de pagamento</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Dúvidas frequentes</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Proposta</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+           links Úteis
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Nossos Preços</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Personalizar</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Meus Pedidos</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ajuda</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+          <p><i class="fas fa-home me-3 text-white"></i> Belo Horizonte, MG 2023, BR</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-white"></i>
+            info@exemplo.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-white"></i> + 31 XXXX-XXXX</p>
+          <p><i class="fas fa-print me-3 text-white"></i> + 31 XXXX-XXXX</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
 </body>
 </html>
