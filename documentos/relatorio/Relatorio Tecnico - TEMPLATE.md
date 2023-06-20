@@ -367,14 +367,9 @@ Modelo Lógico
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+>A partir das decisões tomadas para criação e desenvovilmente da solução, chegou-se ao seguinte diagrama da arquitetura do sistema:
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+![image](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/c8c9e498-6e07-4d2e-9067-b464570945bb)
 
 
 # Avaliação da Aplicação
