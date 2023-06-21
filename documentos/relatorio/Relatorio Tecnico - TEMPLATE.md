@@ -50,7 +50,7 @@ Sistemas de Informação
 - [Avaliação da Aplicação](#avaliação-da-aplicação)
   - [Plano de Testes](#plano-de-testes)
   - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
-  - [Registros de Testes](#registros-de-testes)
+  - [Resultado dos Testes](#resultado-dos-testes)
 - [Referências](#referências)
 
 
@@ -374,53 +374,36 @@ Modelo Lógico
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+> A validação da aplicação foi feita dividindo-a em grupos: Pagina Web e Armazenamento e Gerenciamento de Dados. Para ambos os casos foram criados cenarios simulados para avaliar o funcionamento das ferramentas da aplicação.
+> As validações foram feitas seguinto o Projeto da aplicação. Foi analisado se todos os requisitos levantados anteriormente foram contemplados e também se o processo de utilização do site está de acordo com o Modelo de Processo de Negócio.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Os testes da Pagina Web foram simulações de uso, seguindo os possíveis cenarios do Modelo de Negócio. Foram testes focados em validar as funcionalidades e os requisitos de cada funcionalidade.
+>Abaixo está um dos exemplos de uma das validações, na página inicial do site onde é possível certificar a lista de intens, opções de  menus e caminhos que podem ser seguidos:
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+![image](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/d7406c74-6539-41a3-8702-d55c4b7b4841)
 
-## Ferramentas de Testes (Opcional)
+>Outra evidencia de validação, dessa vez o fluxo de compra sendo seguido até a finalização do pedido:
 
-......  COLOQUE AQUI O SEU TEXTO ......
+![image](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/21e259d6-1735-405d-8020-15bd1dca6687)
 
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+> Os testes do Banco de dados também foi feita com simulações de uso, mas nesse caso com entrada e leitura de dados para teste. Foram criadas tabelas e consultas para validar o processamento de dados e a possibilidade de acessar as rotas criadas.
+> Segue o exemplo de uma das tabelas criadas com dados para teste:
 
-## Registros de Testes
+![image](https://github.com/PSG-TIAPN-2022-1/psg-tiapn-2023-1-e-commerce-pecas-para-pc/assets/79370543/7d697aba-e5a5-4a4f-832f-e57f2a9fb699)
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+## Resultado dos Testes
+
+> Os testes na Pagina Web nos possibilitou identificar que todos os requisitos inicialmente listados foram cobertos. Além disso, o site também atende parâmetros estabelecidos no projeto, nas interfaces e nos wireframes. Considera-se que foi concebido um site com um designe padronizado e de boa navegação, possibilitando o atendimento de diversos públicos.
+>
+> Com os testes do Banco de Dados foi possível validar que todos os dados estavam contemplados nas tabelas, as consultas estavam corretas e as rotas em funcionamento. As tabelas seguiram as definições da Modelagem de Dados e possibilitaram uma estrutura de dados que representa os conteúdos do site.
 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+EXAMPLES - Bootstrap. In: Examples - Bootstrap. [S. l.], 2023. Disponível em: https://getbootstrap.com/docs/5.3/examples/. Acesso em: 6 jun. 2023.
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+MICROSOFT. Documentação Técnica do SQL Server. In: Documentação Técnica do SQL Server. [S. l.], 2023. Disponível em: https://learn.microsoft.com/pt-br/sql/sql-server/?view=sql-server-ver16. Acesso em: 10 mai. 2023.
+
