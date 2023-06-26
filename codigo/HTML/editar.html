@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="editar.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -203,7 +206,53 @@
                       <!-- button -->
                       <div class="gap-3 d-md-flex justify-content-md-end text-center">
                           <button type="button" class="btn btn-danger btn-lg">Excluir perfil</button>
-                          <button type="button" class="btn btn-primary btn-lg">Atualizar perfil</button>
+                          
+
+
+
+
+
+
+                          <!--Modal login ini-->
+<div class="container">
+  <div class="row">
+      <a class="btn btn-success" data-toggle="modal" href="#ignismyModal">Alterar informações</a>
+      <div class="modal fade" id="ignismyModal" role="dialog">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
+                   </div>
+        
+                  <div class="modal-body">
+                     
+          <div class="thank-you-pop">
+            <img src="data:image/png;base64,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" alt="">
+            <h1>Perfil alterado com sucesso!</h1>
+            <p>Confirme as alterações no seu e-mail</p>
+           <a href="#perfil.html"><h3 class="cupon-pop">Desfazer</h3></a>
+            
+           </div>
+                       
+                  </div>
+        
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!--Modal login fim-->
+
+
+
+
+
+
+
+
+
+
+
                       </div>
                   </form> <!-- Form END -->
               </div>
